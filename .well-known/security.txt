@@ -1,0 +1,5 @@
+Contact: mailto:ckazros@wearegays.net
+Contact: https://discord.gg/fPG29xv7EA
+Expires: 2027-09-20T00:00:00Z
+Preferred-Languages: en
+Canonical: https://wearegays.net/.well-known/security.txt
