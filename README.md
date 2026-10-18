@@ -8,4 +8,4 @@ Live at **[wearegays.net](https://wearegays.net)**.
 python3 -m http.server 8080
 ```
 
-Push `main` to publish.
+Push `main` to publish through Railway. The service builds the repository root with its `Dockerfile` and serves the static site.
