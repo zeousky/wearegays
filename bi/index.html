@@ -1,24 +1,45 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>we are bi</title>
-<meta name="description" content="we are bi.">
-<meta name="theme-color" content="#090909">
-<meta name="referrer" content="no-referrer">
-<link rel="canonical" href="https://wearegays.net/bi/">
-<link rel="stylesheet" href="/assets/site.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>we are bi</title>
+  <meta name="description" content="we are bi.">
+  <meta name="theme-color" content="#1c151d">
+  <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://wearegays.net/bi/">
+  <meta property="og:title" content="we are bi">
+  <meta property="og:description" content="we are bi.">
+  <meta property="og:url" content="https://wearegays.net/bi/">
+  <link rel="stylesheet" href="../assets/site.css">
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<main id="main">
-<h1>we are bi.</h1>
-<p class="also">
-also:
-<a href="/gays/">gays</a> <a href="/trans/">trans</a> <a href="/lesbians/">lesbians</a> <a href="/bi/" aria-current="page">bi</a> <a href="/pan/">pan</a> <a href="/nb/">nb</a> <a href="/ace/">ace</a>
-</p>
-</main>
-<footer><a href="/">wearegays.net</a> · ckazros</footer>
+<body data-flag="bi">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead layout">
+    <a class="wordmark" href="../">wearegays.net</a>
+    <a href="#posters">Identity posters <span aria-hidden="true">↓</span></a>
+  </header>
+  <main class="layout" id="main">
+    <div class="poster">
+      <div class="poster-type">
+        <h1>we are <strong>bi.</strong></h1>
+      </div>
+      <div class="poster-print" aria-hidden="true"></div>
+    </div>
+    <nav class="posters" id="posters" aria-label="Identity posters">
+        <a data-flag="gays" href="../gays/">gays</a>
+        <a data-flag="trans" href="../trans/">trans</a>
+        <a data-flag="lesbians" href="../lesbians/">lesbians</a>
+        <a data-flag="bi" href="../bi/" aria-current="page">bi</a>
+        <a data-flag="pan" href="../pan/">pan</a>
+        <a data-flag="nb" href="../nb/">nb</a>
+        <a data-flag="ace" href="../ace/">ace</a>
+    </nav>
+  </main>
+  <footer class="layout">
+    <span>ckazros</span>
+    <a href="https://discord.gg/fPG29xv7EA">Discord</a>
+    <a href="mailto:ckazros@wearegays.net">Email</a>
+  </footer>
 </body>
 </html>
