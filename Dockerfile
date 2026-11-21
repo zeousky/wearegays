@@ -1,6 +1,6 @@
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html 404.html CNAME robots.txt video.css video.js video.mp4 /usr/share/nginx/html/
+COPY index.html 404.html CNAME robots.txt video.css video.mp4 /usr/share/nginx/html/
 COPY ace/ /usr/share/nginx/html/ace/
 COPY bi/ /usr/share/nginx/html/bi/
 COPY gays/ /usr/share/nginx/html/gays/

@@ -35,7 +35,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site/assets/editorial _site/.well-known
-          cp index.html 404.html robots.txt video.css video.js video.mp4 _site/
+          cp index.html 404.html robots.txt video.css video.mp4 _site/
           cp -R ace bi gays israel lesbians nb pan trans _site/
           cp assets/site.css _site/assets/
           cp assets/editorial/{display.ttf,italic.ttf,OFL-Barlow.txt,OFL-Cormorant.txt} _site/assets/editorial/
