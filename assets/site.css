@@ -46,7 +46,6 @@ body {
 a { color: inherit; }
 
 a:focus-visible,
-summary:focus-visible,
 video:focus-visible {
   outline: 2px solid var(--paper);
   outline-offset: 5px;
@@ -306,29 +305,6 @@ body[data-flag="lesbians"] h1 strong {
 }
 
 .return-home:focus-visible { outline-color: var(--ink); }
-
-.reel {
-  margin-block-start: 1rem;
-  color: var(--muted);
-}
-
-.reel summary {
-  width: fit-content;
-  padding: 0.6rem 0;
-  cursor: pointer;
-  font-size: 0.8rem;
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
-.reel video {
-  display: block;
-  width: min(100%, 48rem);
-  margin-block: 0.65rem 1rem;
-  border: 1px solid var(--line);
-  background: #0d090f;
-  aspect-ratio: 16 / 9;
-}
 
 footer {
   display: flex;
